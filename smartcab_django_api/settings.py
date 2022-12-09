@@ -77,14 +77,14 @@ WSGI_APPLICATION = 'smartcab_django_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'ENGINE':'django.db.backends.mysql',
-        'NAME':'python_practice',
-        'HOSTNAME':'127.0.0.1',
-        'PORT':3306,
-        'USER':'root',
-        'PASSWORD':'Sreedivy@20'
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE':'django.db.backends.mysql',
+        # 'NAME':'python_practice',
+        # 'HOSTNAME':'127.0.0.1',
+        # 'PORT':3306,
+        # 'USER':'root',
+        # 'PASSWORD':'Sreedivy@20'
     }
 }
 
